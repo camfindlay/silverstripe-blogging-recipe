@@ -13,6 +13,8 @@ The blogging recipe requires:
     "silverstripe/blog": "*",
     "silverstripe/comments": "*",
     "silverstripe/widgets": "*",
+    "ioti/silverstripe-blogcategories": "dev-master",
+    "thezenmonkey/enhancedblog": "dev-master",
     "silverstripe/spamprotection": "*",
     "tractorcow/silverstripe-akismet": "3.1.*@dev",
     "simplepie/simplepie": "*",

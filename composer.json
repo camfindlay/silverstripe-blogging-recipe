@@ -19,6 +19,8 @@
 		"silverstripe/blog": "*",
 		"silverstripe/comments": "*",
 		"silverstripe/widgets": "*",
+        "ioti/silverstripe-blogcategories": "*",
+        "thezenmonkey/enhancedblog": "*",
 		"silverstripe/spamprotection": "*",
 		"tractorcow/silverstripe-akismet": "3.1.*@dev",
 		"simplepie/simplepie": "*",
