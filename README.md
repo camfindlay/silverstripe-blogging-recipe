@@ -4,6 +4,7 @@ Cam Findlay <cam@silverstripe.com>
 
 ##Ingredients
 The blogging recipe requires:
+
     "silverstripe/cms": "~3.1",
     "silverstripe/framework": "~3.1",
     "silverstripe-themes/simple": "*",	
