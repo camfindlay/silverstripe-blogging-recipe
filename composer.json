@@ -1,0 +1,30 @@
+{
+    "name": "camfindlay/silverstripe-blogging-recipe",
+    "description": "Recipe for creating a SilverStripe blogging website",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "recipe", "blog"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Cam Findlay",
+            "email": "cam@silverstripe.com"
+        }
+    ],
+    "require": {
+        "silverstripe/cms": "~3.1",
+		"silverstripe/framework": "~3.1",
+		"silverstripe-themes/simple": "*",	
+		"silverstripe-themes/simple_blog": "*",
+		"silverstripe/userforms": "*",
+		"silverstripe/blog": "*",
+		"silverstripe/comments": "*",
+		"silverstripe/widgets": "*",
+		"silverstripe/spamprotection": "*",
+		"tractorcow/silverstripe-akismet": "3.1.*@dev",
+		"simplepie/simplepie": "*",
+		"ezyang/htmlpurifier": "4.*"
+    },
+    "extra": {
+                "installer-name": "blogging-recipe"
+        }
+    }
