@@ -20,19 +20,19 @@ The blogging recipe requires:
 
 ##Installation
 ###Install via composer
+    
     composer require camfindlay/blogging-recipe dev-master
 
 ###Akismet Spam Setup
 Create an Akisment API key at [https://akismet.com](https://akismet.com) (Free for non-commercial use).
 
-Add to your *mysite/_config/config.yml* or any other config method defined in the SilverStripe Akismet module documentation.
-    AkismetSpamProtector:
-      api_key: <insert-akisment-key-here>
+Add to your **mysite/_config/config.yml** or any other config method defined in the SilverStripe Akismet module documentation.
 
 ###Run dev/build
+    
     sake dev/build flush=1
 
-*Note: there is some configuration that is assumed in this recipes to enable the widgets and Akismet spam protection for use on your blog.
+_Note: there is some configuration that is assumed in this recipes to enable the widgets and Akismet spam protection for use on your blog._
 
 If you don't like this configuration... create your own recipe and share it!!
 
