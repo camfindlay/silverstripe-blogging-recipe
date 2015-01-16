@@ -5,12 +5,14 @@ After: 'framework/*','cms/*'
 # YAML configuration for SilverStripe
 # See http://doc.silverstripe.org/framework/en/topics/configuration
 # Caution: Indentation through two spaces, not tabs
+FormSpamProtectionExtension:
+  default_spam_protector: AkismetSpamProtector
+CommentingController:
+  extensions:
+    - CommentSpamProtection
 BlogTree:
   extensions:
     - WidgetPageExtension
 BlogEntry:
   extensions:
     - WidgetPageExtension
-CommentingController:
-  extensions:
-    - CommentSpamProtection
