@@ -16,7 +16,7 @@
 		"silverstripe-themes/simple": "*",	
 		"silverstripe-themes/simple_blog": "*",
 		"silverstripe/userforms": "*",
-		"silverstripe/blog": "*",
+		"silverstripe/blog": "1.0.*@stable",
 		"silverstripe/comments": "*",
 		"silverstripe/widgets": "*",
         "ioti/silverstripe-blogcategories": "*",
