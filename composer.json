@@ -10,23 +10,14 @@
             "email": "cam@silverstripe.com"
         }
     ],
-    "repositories": [
-    	{
-    		"type": "vcs",
-        	"url": "git@github.com:camfindlay/enhancedblog.git"
-    	}
-	],
+    "repositories": [],
     "require": {
         "silverstripe/cms": "~3.1",
 		"silverstripe/framework": "~3.1",
-		"silverstripe-themes/simple": "*",	
-		"silverstripe-themes/simple_blog": "*",
 		"silverstripe/userforms": "*",
-		"silverstripe/blog": "1.0.*@stable",
+		"silverstripe/blog": "2.0.x-dev",
 		"silverstripe/comments": "*",
 		"silverstripe/widgets": "*",
-        	"ioti/silverstripe-blogcategories": "*",
-        	"thezenmonkey/enhancedblog": "dev-patch-3 as dev-master",
 		"silverstripe/spamprotection": "*",
 		"tractorcow/silverstripe-akismet": "3.1.*@dev",
 		"simplepie/simplepie": "*",
